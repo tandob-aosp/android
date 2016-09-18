@@ -495,5 +495,5 @@
 
   <include name="snippets/cm-14.0.xml" />
 
-  <project path="device/kingzone/k1_turbo" name="fire855/android_device_kingzone_k1-turbo" revision="cm-13.0" />
+  <project path="device/Micromax/E313" name="tandob-aosp/android_device_Micromax_E313" />
 </manifest>
