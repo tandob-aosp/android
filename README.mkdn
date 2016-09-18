@@ -31,11 +31,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b staging/cm-14.0
+    repo init -u git://github.com/tandob-aosp/android-cm.git -b staging/cm-14.0
 
 Then to sync up:
 
-    repo sync
+    repo sync --force-sync -j2 --no-clone-bundle
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
